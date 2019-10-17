@@ -10,7 +10,10 @@
 	<form action="adicionandoimv.php" method="POST">
 		Tipo do Imóvel <br>
 		<select name="tipo">
-			<option></option>
+			<!-- <option></option>
+			<?php foreach ($tipos as $tipo): ?>
+				<option value="<?= $tipo ?>"><?= $tipo ?></option>
+			<?php endforeach ?> -->
 			<option value="casa">Casa</option>
 			<option value="ap">Apartamento</option>
 			<option value="flat">Flat</option>

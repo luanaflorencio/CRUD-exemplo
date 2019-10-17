@@ -14,6 +14,7 @@
 		<input type="password" name="senha"><br>
 		<button>Entrar</button>
 	</form>
+	<a href="cadastrouser.php">Cadastrar</a>
 
 </body>
 </html>
